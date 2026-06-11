@@ -30,7 +30,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		CB9340BC2FDB0CE600A58648 /* Exceptions for "RemoteRecruit" folder in "RemoteRecruit" target */ = {
+		CB9340EA2FDB0FC400A58648 /* Exceptions for "RemoteRecruit" folder in "RemoteRecruit" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -40,14 +40,6 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		CB9340962FDB0CE500A58648 /* RemoteRecruit */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				CB9340BC2FDB0CE600A58648 /* Exceptions for "RemoteRecruit" folder in "RemoteRecruit" target */,
-			);
-			path = RemoteRecruit;
-			sourceTree = "<group>";
-		};
 		CB9340AD2FDB0CE600A58648 /* RemoteRecruitTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = RemoteRecruitTests;
@@ -56,6 +48,14 @@
 		CB9340B72FDB0CE600A58648 /* RemoteRecruitUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = RemoteRecruitUITests;
+			sourceTree = "<group>";
+		};
+		CB9340E32FDB0FC400A58648 /* RemoteRecruit */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				CB9340EA2FDB0FC400A58648 /* Exceptions for "RemoteRecruit" folder in "RemoteRecruit" target */,
+			);
+			path = RemoteRecruit;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -88,7 +88,7 @@
 		CB93408B2FDB0CE500A58648 = {
 			isa = PBXGroup;
 			children = (
-				CB9340962FDB0CE500A58648 /* RemoteRecruit */,
+				CB9340E32FDB0FC400A58648 /* RemoteRecruit */,
 				CB9340AD2FDB0CE600A58648 /* RemoteRecruitTests */,
 				CB9340B72FDB0CE600A58648 /* RemoteRecruitUITests */,
 				CB9340952FDB0CE500A58648 /* Products */,
@@ -121,7 +121,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				CB9340962FDB0CE500A58648 /* RemoteRecruit */,
+				CB9340E32FDB0FC400A58648 /* RemoteRecruit */,
 			);
 			name = RemoteRecruit;
 			packageProductDependencies = (

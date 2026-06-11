@@ -1,0 +1,1004 @@
+{
+  "jobs": [
+    {
+      "id": "001",
+      "title": "iOS Developer",
+      "company": "Tech Solutions Inc.",
+      "location": "New York, NY",
+      "salaryRange": "$71,000 - $91,000",
+      "description": "We are looking for an experienced iOS Developer to join our growing team and build innovative software solutions.",
+      "companyInfo": "Tech Solutions Inc. is a technology company focused on delivering high-quality digital products and services.",
+      "jobLocation": "On-site"
+    },
+    {
+      "id": "002",
+      "title": "Android Developer",
+      "company": "CloudWorks",
+      "location": "San Francisco, CA",
+      "salaryRange": "$72,000 - $92,000",
+      "description": "We are looking for an experienced Android Developer to join our growing team and build innovative software solutions.",
+      "companyInfo": "CloudWorks is a technology company focused on delivering high-quality digital products and services.",
+      "jobLocation": "Hybrid"
+    },
+    {
+      "id": "003",
+      "title": "Backend Engineer",
+      "company": "Creative Minds",
+      "location": "Boston, MA",
+      "salaryRange": "$73,000 - $93,000",
+      "description": "We are looking for an experienced Backend Engineer to join our growing team and build innovative software solutions.",
+      "companyInfo": "Creative Minds is a technology company focused on delivering high-quality digital products and services.",
+      "jobLocation": "Remote"
+    },
+    {
+      "id": "004",
+      "title": "Frontend Developer",
+      "company": "Insight Analytics",
+      "location": "Seattle, WA",
+      "salaryRange": "$74,000 - $94,000",
+      "description": "We are looking for an experienced Frontend Developer to join our growing team and build innovative software solutions.",
+      "companyInfo": "Insight Analytics is a technology company focused on delivering high-quality digital products and services.",
+      "jobLocation": "On-site"
+    },
+    {
+      "id": "005",
+      "title": "Full Stack Developer",
+      "company": "NextGen Systems",
+      "location": "Austin, TX",
+      "salaryRange": "$75,000 - $95,000",
+      "description": "We are looking for an experienced Full Stack Developer to join our growing team and build innovative software solutions.",
+      "companyInfo": "NextGen Systems is a technology company focused on delivering high-quality digital products and services.",
+      "jobLocation": "Hybrid"
+    },
+    {
+      "id": "006",
+      "title": "QA Engineer",
+      "company": "Innovate Labs",
+      "location": "Chicago, IL",
+      "salaryRange": "$76,000 - $96,000",
+      "description": "We are looking for an experienced QA Engineer to join our growing team and build innovative software solutions.",
+      "companyInfo": "Innovate Labs is a technology company focused on delivering high-quality digital products and services.",
+      "jobLocation": "Remote"
+    },
+    {
+      "id": "007",
+      "title": "DevOps Engineer",
+      "company": "Digital Ventures",
+      "location": "Denver, CO",
+      "salaryRange": "$77,000 - $97,000",
+      "description": "We are looking for an experienced DevOps Engineer to join our growing team and build innovative software solutions.",
+      "companyInfo": "Digital Ventures is a technology company focused on delivering high-quality digital products and services.",
+      "jobLocation": "On-site"
+    },
+    {
+      "id": "008",
+      "title": "Data Scientist",
+      "company": "FutureSoft",
+      "location": "Atlanta, GA",
+      "salaryRange": "$78,000 - $98,000",
+      "description": "We are looking for an experienced Data Scientist to join our growing team and build innovative software solutions.",
+      "companyInfo": "FutureSoft is a technology company focused on delivering high-quality digital products and services.",
+      "jobLocation": "Hybrid"
+    },
+    {
+      "id": "009",
+      "title": "UI/UX Designer",
+      "company": "SmartApps",
+      "location": "Remote",
+      "salaryRange": "$79,000 - $99,000",
+      "description": "We are looking for an experienced UI/UX Designer to join our growing team and build innovative software solutions.",
+      "companyInfo": "SmartApps is a technology company focused on delivering high-quality digital products and services.",
+      "jobLocation": "Remote"
+    },
+    {
+      "id": "010",
+      "title": "Product Manager",
+      "company": "CodeCraft",
+      "location": "Dallas, TX",
+      "salaryRange": "$80,000 - $100,000",
+      "description": "We are looking for an experienced Product Manager to join our growing team and build innovative software solutions.",
+      "companyInfo": "CodeCraft is a technology company focused on delivering high-quality digital products and services.",
+      "jobLocation": "On-site"
+    },
+    {
+      "id": "011",
+      "title": "iOS Developer",
+      "company": "Tech Solutions Inc.",
+      "location": "New York, NY",
+      "salaryRange": "$81,000 - $101,000",
+      "description": "We are looking for an experienced iOS Developer to join our growing team and build innovative software solutions.",
+      "companyInfo": "Tech Solutions Inc. is a technology company focused on delivering high-quality digital products and services.",
+      "jobLocation": "Hybrid"
+    },
+    {
+      "id": "012",
+      "title": "Android Developer",
+      "company": "CloudWorks",
+      "location": "San Francisco, CA",
+      "salaryRange": "$82,000 - $102,000",
+      "description": "We are looking for an experienced Android Developer to join our growing team and build innovative software solutions.",
+      "companyInfo": "CloudWorks is a technology company focused on delivering high-quality digital products and services.",
+      "jobLocation": "Remote"
+    },
+    {
+      "id": "013",
+      "title": "Backend Engineer",
+      "company": "Creative Minds",
+      "location": "Boston, MA",
+      "salaryRange": "$83,000 - $103,000",
+      "description": "We are looking for an experienced Backend Engineer to join our growing team and build innovative software solutions.",
+      "companyInfo": "Creative Minds is a technology company focused on delivering high-quality digital products and services.",
+      "jobLocation": "On-site"
+    },
+    {
+      "id": "014",
+      "title": "Frontend Developer",
+      "company": "Insight Analytics",
+      "location": "Seattle, WA",
+      "salaryRange": "$84,000 - $104,000",
+      "description": "We are looking for an experienced Frontend Developer to join our growing team and build innovative software solutions.",
+      "companyInfo": "Insight Analytics is a technology company focused on delivering high-quality digital products and services.",
+      "jobLocation": "Hybrid"
+    },
+    {
+      "id": "015",
+      "title": "Full Stack Developer",
+      "company": "NextGen Systems",
+      "location": "Austin, TX",
+      "salaryRange": "$85,000 - $105,000",
+      "description": "We are looking for an experienced Full Stack Developer to join our growing team and build innovative software solutions.",
+      "companyInfo": "NextGen Systems is a technology company focused on delivering high-quality digital products and services.",
+      "jobLocation": "Remote"
+    },
+    {
+      "id": "016",
+      "title": "QA Engineer",
+      "company": "Innovate Labs",
+      "location": "Chicago, IL",
+      "salaryRange": "$86,000 - $106,000",
+      "description": "We are looking for an experienced QA Engineer to join our growing team and build innovative software solutions.",
+      "companyInfo": "Innovate Labs is a technology company focused on delivering high-quality digital products and services.",
+      "jobLocation": "On-site"
+    },
+    {
+      "id": "017",
+      "title": "DevOps Engineer",
+      "company": "Digital Ventures",
+      "location": "Denver, CO",
+      "salaryRange": "$87,000 - $107,000",
+      "description": "We are looking for an experienced DevOps Engineer to join our growing team and build innovative software solutions.",
+      "companyInfo": "Digital Ventures is a technology company focused on delivering high-quality digital products and services.",
+      "jobLocation": "Hybrid"
+    },
+    {
+      "id": "018",
+      "title": "Data Scientist",
+      "company": "FutureSoft",
+      "location": "Atlanta, GA",
+      "salaryRange": "$88,000 - $108,000",
+      "description": "We are looking for an experienced Data Scientist to join our growing team and build innovative software solutions.",
+      "companyInfo": "FutureSoft is a technology company focused on delivering high-quality digital products and services.",
+      "jobLocation": "Remote"
+    },
+    {
+      "id": "019",
+      "title": "UI/UX Designer",
+      "company": "SmartApps",
+      "location": "Remote",
+      "salaryRange": "$89,000 - $109,000",
+      "description": "We are looking for an experienced UI/UX Designer to join our growing team and build innovative software solutions.",
+      "companyInfo": "SmartApps is a technology company focused on delivering high-quality digital products and services.",
+      "jobLocation": "On-site"
+    },
+    {
+      "id": "020",
+      "title": "Product Manager",
+      "company": "CodeCraft",
+      "location": "Dallas, TX",
+      "salaryRange": "$90,000 - $110,000",
+      "description": "We are looking for an experienced Product Manager to join our growing team and build innovative software solutions.",
+      "companyInfo": "CodeCraft is a technology company focused on delivering high-quality digital products and services.",
+      "jobLocation": "Hybrid"
+    },
+    {
+      "id": "021",
+      "title": "iOS Developer",
+      "company": "Tech Solutions Inc.",
+      "location": "New York, NY",
+      "salaryRange": "$91,000 - $111,000",
+      "description": "We are looking for an experienced iOS Developer to join our growing team and build innovative software solutions.",
+      "companyInfo": "Tech Solutions Inc. is a technology company focused on delivering high-quality digital products and services.",
+      "jobLocation": "Remote"
+    },
+    {
+      "id": "022",
+      "title": "Android Developer",
+      "company": "CloudWorks",
+      "location": "San Francisco, CA",
+      "salaryRange": "$92,000 - $112,000",
+      "description": "We are looking for an experienced Android Developer to join our growing team and build innovative software solutions.",
+      "companyInfo": "CloudWorks is a technology company focused on delivering high-quality digital products and services.",
+      "jobLocation": "On-site"
+    },
+    {
+      "id": "023",
+      "title": "Backend Engineer",
+      "company": "Creative Minds",
+      "location": "Boston, MA",
+      "salaryRange": "$93,000 - $113,000",
+      "description": "We are looking for an experienced Backend Engineer to join our growing team and build innovative software solutions.",
+      "companyInfo": "Creative Minds is a technology company focused on delivering high-quality digital products and services.",
+      "jobLocation": "Hybrid"
+    },
+    {
+      "id": "024",
+      "title": "Frontend Developer",
+      "company": "Insight Analytics",
+      "location": "Seattle, WA",
+      "salaryRange": "$94,000 - $114,000",
+      "description": "We are looking for an experienced Frontend Developer to join our growing team and build innovative software solutions.",
+      "companyInfo": "Insight Analytics is a technology company focused on delivering high-quality digital products and services.",
+      "jobLocation": "Remote"
+    },
+    {
+      "id": "025",
+      "title": "Full Stack Developer",
+      "company": "NextGen Systems",
+      "location": "Austin, TX",
+      "salaryRange": "$95,000 - $115,000",
+      "description": "We are looking for an experienced Full Stack Developer to join our growing team and build innovative software solutions.",
+      "companyInfo": "NextGen Systems is a technology company focused on delivering high-quality digital products and services.",
+      "jobLocation": "On-site"
+    },
+    {
+      "id": "026",
+      "title": "QA Engineer",
+      "company": "Innovate Labs",
+      "location": "Chicago, IL",
+      "salaryRange": "$96,000 - $116,000",
+      "description": "We are looking for an experienced QA Engineer to join our growing team and build innovative software solutions.",
+      "companyInfo": "Innovate Labs is a technology company focused on delivering high-quality digital products and services.",
+      "jobLocation": "Hybrid"
+    },
+    {
+      "id": "027",
+      "title": "DevOps Engineer",
+      "company": "Digital Ventures",
+      "location": "Denver, CO",
+      "salaryRange": "$97,000 - $117,000",
+      "description": "We are looking for an experienced DevOps Engineer to join our growing team and build innovative software solutions.",
+      "companyInfo": "Digital Ventures is a technology company focused on delivering high-quality digital products and services.",
+      "jobLocation": "Remote"
+    },
+    {
+      "id": "028",
+      "title": "Data Scientist",
+      "company": "FutureSoft",
+      "location": "Atlanta, GA",
+      "salaryRange": "$98,000 - $118,000",
+      "description": "We are looking for an experienced Data Scientist to join our growing team and build innovative software solutions.",
+      "companyInfo": "FutureSoft is a technology company focused on delivering high-quality digital products and services.",
+      "jobLocation": "On-site"
+    },
+    {
+      "id": "029",
+      "title": "UI/UX Designer",
+      "company": "SmartApps",
+      "location": "Remote",
+      "salaryRange": "$99,000 - $119,000",
+      "description": "We are looking for an experienced UI/UX Designer to join our growing team and build innovative software solutions.",
+      "companyInfo": "SmartApps is a technology company focused on delivering high-quality digital products and services.",
+      "jobLocation": "Hybrid"
+    },
+    {
+      "id": "030",
+      "title": "Product Manager",
+      "company": "CodeCraft",
+      "location": "Dallas, TX",
+      "salaryRange": "$100,000 - $120,000",
+      "description": "We are looking for an experienced Product Manager to join our growing team and build innovative software solutions.",
+      "companyInfo": "CodeCraft is a technology company focused on delivering high-quality digital products and services.",
+      "jobLocation": "Remote"
+    },
+    {
+      "id": "031",
+      "title": "iOS Developer",
+      "company": "Tech Solutions Inc.",
+      "location": "New York, NY",
+      "salaryRange": "$101,000 - $121,000",
+      "description": "We are looking for an experienced iOS Developer to join our growing team and build innovative software solutions.",
+      "companyInfo": "Tech Solutions Inc. is a technology company focused on delivering high-quality digital products and services.",
+      "jobLocation": "On-site"
+    },
+    {
+      "id": "032",
+      "title": "Android Developer",
+      "company": "CloudWorks",
+      "location": "San Francisco, CA",
+      "salaryRange": "$102,000 - $122,000",
+      "description": "We are looking for an experienced Android Developer to join our growing team and build innovative software solutions.",
+      "companyInfo": "CloudWorks is a technology company focused on delivering high-quality digital products and services.",
+      "jobLocation": "Hybrid"
+    },
+    {
+      "id": "033",
+      "title": "Backend Engineer",
+      "company": "Creative Minds",
+      "location": "Boston, MA",
+      "salaryRange": "$103,000 - $123,000",
+      "description": "We are looking for an experienced Backend Engineer to join our growing team and build innovative software solutions.",
+      "companyInfo": "Creative Minds is a technology company focused on delivering high-quality digital products and services.",
+      "jobLocation": "Remote"
+    },
+    {
+      "id": "034",
+      "title": "Frontend Developer",
+      "company": "Insight Analytics",
+      "location": "Seattle, WA",
+      "salaryRange": "$104,000 - $124,000",
+      "description": "We are looking for an experienced Frontend Developer to join our growing team and build innovative software solutions.",
+      "companyInfo": "Insight Analytics is a technology company focused on delivering high-quality digital products and services.",
+      "jobLocation": "On-site"
+    },
+    {
+      "id": "035",
+      "title": "Full Stack Developer",
+      "company": "NextGen Systems",
+      "location": "Austin, TX",
+      "salaryRange": "$105,000 - $125,000",
+      "description": "We are looking for an experienced Full Stack Developer to join our growing team and build innovative software solutions.",
+      "companyInfo": "NextGen Systems is a technology company focused on delivering high-quality digital products and services.",
+      "jobLocation": "Hybrid"
+    },
+    {
+      "id": "036",
+      "title": "QA Engineer",
+      "company": "Innovate Labs",
+      "location": "Chicago, IL",
+      "salaryRange": "$106,000 - $126,000",
+      "description": "We are looking for an experienced QA Engineer to join our growing team and build innovative software solutions.",
+      "companyInfo": "Innovate Labs is a technology company focused on delivering high-quality digital products and services.",
+      "jobLocation": "Remote"
+    },
+    {
+      "id": "037",
+      "title": "DevOps Engineer",
+      "company": "Digital Ventures",
+      "location": "Denver, CO",
+      "salaryRange": "$107,000 - $127,000",
+      "description": "We are looking for an experienced DevOps Engineer to join our growing team and build innovative software solutions.",
+      "companyInfo": "Digital Ventures is a technology company focused on delivering high-quality digital products and services.",
+      "jobLocation": "On-site"
+    },
+    {
+      "id": "038",
+      "title": "Data Scientist",
+      "company": "FutureSoft",
+      "location": "Atlanta, GA",
+      "salaryRange": "$108,000 - $128,000",
+      "description": "We are looking for an experienced Data Scientist to join our growing team and build innovative software solutions.",
+      "companyInfo": "FutureSoft is a technology company focused on delivering high-quality digital products and services.",
+      "jobLocation": "Hybrid"
+    },
+    {
+      "id": "039",
+      "title": "UI/UX Designer",
+      "company": "SmartApps",
+      "location": "Remote",
+      "salaryRange": "$109,000 - $129,000",
+      "description": "We are looking for an experienced UI/UX Designer to join our growing team and build innovative software solutions.",
+      "companyInfo": "SmartApps is a technology company focused on delivering high-quality digital products and services.",
+      "jobLocation": "Remote"
+    },
+    {
+      "id": "040",
+      "title": "Product Manager",
+      "company": "CodeCraft",
+      "location": "Dallas, TX",
+      "salaryRange": "$110,000 - $130,000",
+      "description": "We are looking for an experienced Product Manager to join our growing team and build innovative software solutions.",
+      "companyInfo": "CodeCraft is a technology company focused on delivering high-quality digital products and services.",
+      "jobLocation": "On-site"
+    },
+    {
+      "id": "041",
+      "title": "iOS Developer",
+      "company": "Tech Solutions Inc.",
+      "location": "New York, NY",
+      "salaryRange": "$111,000 - $131,000",
+      "description": "We are looking for an experienced iOS Developer to join our growing team and build innovative software solutions.",
+      "companyInfo": "Tech Solutions Inc. is a technology company focused on delivering high-quality digital products and services.",
+      "jobLocation": "Hybrid"
+    },
+    {
+      "id": "042",
+      "title": "Android Developer",
+      "company": "CloudWorks",
+      "location": "San Francisco, CA",
+      "salaryRange": "$112,000 - $132,000",
+      "description": "We are looking for an experienced Android Developer to join our growing team and build innovative software solutions.",
+      "companyInfo": "CloudWorks is a technology company focused on delivering high-quality digital products and services.",
+      "jobLocation": "Remote"
+    },
+    {
+      "id": "043",
+      "title": "Backend Engineer",
+      "company": "Creative Minds",
+      "location": "Boston, MA",
+      "salaryRange": "$113,000 - $133,000",
+      "description": "We are looking for an experienced Backend Engineer to join our growing team and build innovative software solutions.",
+      "companyInfo": "Creative Minds is a technology company focused on delivering high-quality digital products and services.",
+      "jobLocation": "On-site"
+    },
+    {
+      "id": "044",
+      "title": "Frontend Developer",
+      "company": "Insight Analytics",
+      "location": "Seattle, WA",
+      "salaryRange": "$114,000 - $134,000",
+      "description": "We are looking for an experienced Frontend Developer to join our growing team and build innovative software solutions.",
+      "companyInfo": "Insight Analytics is a technology company focused on delivering high-quality digital products and services.",
+      "jobLocation": "Hybrid"
+    },
+    {
+      "id": "045",
+      "title": "Full Stack Developer",
+      "company": "NextGen Systems",
+      "location": "Austin, TX",
+      "salaryRange": "$115,000 - $135,000",
+      "description": "We are looking for an experienced Full Stack Developer to join our growing team and build innovative software solutions.",
+      "companyInfo": "NextGen Systems is a technology company focused on delivering high-quality digital products and services.",
+      "jobLocation": "Remote"
+    },
+    {
+      "id": "046",
+      "title": "QA Engineer",
+      "company": "Innovate Labs",
+      "location": "Chicago, IL",
+      "salaryRange": "$116,000 - $136,000",
+      "description": "We are looking for an experienced QA Engineer to join our growing team and build innovative software solutions.",
+      "companyInfo": "Innovate Labs is a technology company focused on delivering high-quality digital products and services.",
+      "jobLocation": "On-site"
+    },
+    {
+      "id": "047",
+      "title": "DevOps Engineer",
+      "company": "Digital Ventures",
+      "location": "Denver, CO",
+      "salaryRange": "$117,000 - $137,000",
+      "description": "We are looking for an experienced DevOps Engineer to join our growing team and build innovative software solutions.",
+      "companyInfo": "Digital Ventures is a technology company focused on delivering high-quality digital products and services.",
+      "jobLocation": "Hybrid"
+    },
+    {
+      "id": "048",
+      "title": "Data Scientist",
+      "company": "FutureSoft",
+      "location": "Atlanta, GA",
+      "salaryRange": "$118,000 - $138,000",
+      "description": "We are looking for an experienced Data Scientist to join our growing team and build innovative software solutions.",
+      "companyInfo": "FutureSoft is a technology company focused on delivering high-quality digital products and services.",
+      "jobLocation": "Remote"
+    },
+    {
+      "id": "049",
+      "title": "UI/UX Designer",
+      "company": "SmartApps",
+      "location": "Remote",
+      "salaryRange": "$119,000 - $139,000",
+      "description": "We are looking for an experienced UI/UX Designer to join our growing team and build innovative software solutions.",
+      "companyInfo": "SmartApps is a technology company focused on delivering high-quality digital products and services.",
+      "jobLocation": "On-site"
+    },
+    {
+      "id": "050",
+      "title": "Product Manager",
+      "company": "CodeCraft",
+      "location": "Dallas, TX",
+      "salaryRange": "$120,000 - $140,000",
+      "description": "We are looking for an experienced Product Manager to join our growing team and build innovative software solutions.",
+      "companyInfo": "CodeCraft is a technology company focused on delivering high-quality digital products and services.",
+      "jobLocation": "Hybrid"
+    },
+    {
+      "id": "051",
+      "title": "iOS Developer",
+      "company": "Tech Solutions Inc.",
+      "location": "New York, NY",
+      "salaryRange": "$121,000 - $141,000",
+      "description": "We are looking for an experienced iOS Developer to join our growing team and build innovative software solutions.",
+      "companyInfo": "Tech Solutions Inc. is a technology company focused on delivering high-quality digital products and services.",
+      "jobLocation": "Remote"
+    },
+    {
+      "id": "052",
+      "title": "Android Developer",
+      "company": "CloudWorks",
+      "location": "San Francisco, CA",
+      "salaryRange": "$122,000 - $142,000",
+      "description": "We are looking for an experienced Android Developer to join our growing team and build innovative software solutions.",
+      "companyInfo": "CloudWorks is a technology company focused on delivering high-quality digital products and services.",
+      "jobLocation": "On-site"
+    },
+    {
+      "id": "053",
+      "title": "Backend Engineer",
+      "company": "Creative Minds",
+      "location": "Boston, MA",
+      "salaryRange": "$123,000 - $143,000",
+      "description": "We are looking for an experienced Backend Engineer to join our growing team and build innovative software solutions.",
+      "companyInfo": "Creative Minds is a technology company focused on delivering high-quality digital products and services.",
+      "jobLocation": "Hybrid"
+    },
+    {
+      "id": "054",
+      "title": "Frontend Developer",
+      "company": "Insight Analytics",
+      "location": "Seattle, WA",
+      "salaryRange": "$124,000 - $144,000",
+      "description": "We are looking for an experienced Frontend Developer to join our growing team and build innovative software solutions.",
+      "companyInfo": "Insight Analytics is a technology company focused on delivering high-quality digital products and services.",
+      "jobLocation": "Remote"
+    },
+    {
+      "id": "055",
+      "title": "Full Stack Developer",
+      "company": "NextGen Systems",
+      "location": "Austin, TX",
+      "salaryRange": "$125,000 - $145,000",
+      "description": "We are looking for an experienced Full Stack Developer to join our growing team and build innovative software solutions.",
+      "companyInfo": "NextGen Systems is a technology company focused on delivering high-quality digital products and services.",
+      "jobLocation": "On-site"
+    },
+    {
+      "id": "056",
+      "title": "QA Engineer",
+      "company": "Innovate Labs",
+      "location": "Chicago, IL",
+      "salaryRange": "$126,000 - $146,000",
+      "description": "We are looking for an experienced QA Engineer to join our growing team and build innovative software solutions.",
+      "companyInfo": "Innovate Labs is a technology company focused on delivering high-quality digital products and services.",
+      "jobLocation": "Hybrid"
+    },
+    {
+      "id": "057",
+      "title": "DevOps Engineer",
+      "company": "Digital Ventures",
+      "location": "Denver, CO",
+      "salaryRange": "$127,000 - $147,000",
+      "description": "We are looking for an experienced DevOps Engineer to join our growing team and build innovative software solutions.",
+      "companyInfo": "Digital Ventures is a technology company focused on delivering high-quality digital products and services.",
+      "jobLocation": "Remote"
+    },
+    {
+      "id": "058",
+      "title": "Data Scientist",
+      "company": "FutureSoft",
+      "location": "Atlanta, GA",
+      "salaryRange": "$128,000 - $148,000",
+      "description": "We are looking for an experienced Data Scientist to join our growing team and build innovative software solutions.",
+      "companyInfo": "FutureSoft is a technology company focused on delivering high-quality digital products and services.",
+      "jobLocation": "On-site"
+    },
+    {
+      "id": "059",
+      "title": "UI/UX Designer",
+      "company": "SmartApps",
+      "location": "Remote",
+      "salaryRange": "$129,000 - $149,000",
+      "description": "We are looking for an experienced UI/UX Designer to join our growing team and build innovative software solutions.",
+      "companyInfo": "SmartApps is a technology company focused on delivering high-quality digital products and services.",
+      "jobLocation": "Hybrid"
+    },
+    {
+      "id": "060",
+      "title": "Product Manager",
+      "company": "CodeCraft",
+      "location": "Dallas, TX",
+      "salaryRange": "$130,000 - $150,000",
+      "description": "We are looking for an experienced Product Manager to join our growing team and build innovative software solutions.",
+      "companyInfo": "CodeCraft is a technology company focused on delivering high-quality digital products and services.",
+      "jobLocation": "Remote"
+    },
+    {
+      "id": "061",
+      "title": "iOS Developer",
+      "company": "Tech Solutions Inc.",
+      "location": "New York, NY",
+      "salaryRange": "$131,000 - $151,000",
+      "description": "We are looking for an experienced iOS Developer to join our growing team and build innovative software solutions.",
+      "companyInfo": "Tech Solutions Inc. is a technology company focused on delivering high-quality digital products and services.",
+      "jobLocation": "On-site"
+    },
+    {
+      "id": "062",
+      "title": "Android Developer",
+      "company": "CloudWorks",
+      "location": "San Francisco, CA",
+      "salaryRange": "$132,000 - $152,000",
+      "description": "We are looking for an experienced Android Developer to join our growing team and build innovative software solutions.",
+      "companyInfo": "CloudWorks is a technology company focused on delivering high-quality digital products and services.",
+      "jobLocation": "Hybrid"
+    },
+    {
+      "id": "063",
+      "title": "Backend Engineer",
+      "company": "Creative Minds",
+      "location": "Boston, MA",
+      "salaryRange": "$133,000 - $153,000",
+      "description": "We are looking for an experienced Backend Engineer to join our growing team and build innovative software solutions.",
+      "companyInfo": "Creative Minds is a technology company focused on delivering high-quality digital products and services.",
+      "jobLocation": "Remote"
+    },
+    {
+      "id": "064",
+      "title": "Frontend Developer",
+      "company": "Insight Analytics",
+      "location": "Seattle, WA",
+      "salaryRange": "$134,000 - $154,000",
+      "description": "We are looking for an experienced Frontend Developer to join our growing team and build innovative software solutions.",
+      "companyInfo": "Insight Analytics is a technology company focused on delivering high-quality digital products and services.",
+      "jobLocation": "On-site"
+    },
+    {
+      "id": "065",
+      "title": "Full Stack Developer",
+      "company": "NextGen Systems",
+      "location": "Austin, TX",
+      "salaryRange": "$135,000 - $155,000",
+      "description": "We are looking for an experienced Full Stack Developer to join our growing team and build innovative software solutions.",
+      "companyInfo": "NextGen Systems is a technology company focused on delivering high-quality digital products and services.",
+      "jobLocation": "Hybrid"
+    },
+    {
+      "id": "066",
+      "title": "QA Engineer",
+      "company": "Innovate Labs",
+      "location": "Chicago, IL",
+      "salaryRange": "$136,000 - $156,000",
+      "description": "We are looking for an experienced QA Engineer to join our growing team and build innovative software solutions.",
+      "companyInfo": "Innovate Labs is a technology company focused on delivering high-quality digital products and services.",
+      "jobLocation": "Remote"
+    },
+    {
+      "id": "067",
+      "title": "DevOps Engineer",
+      "company": "Digital Ventures",
+      "location": "Denver, CO",
+      "salaryRange": "$137,000 - $157,000",
+      "description": "We are looking for an experienced DevOps Engineer to join our growing team and build innovative software solutions.",
+      "companyInfo": "Digital Ventures is a technology company focused on delivering high-quality digital products and services.",
+      "jobLocation": "On-site"
+    },
+    {
+      "id": "068",
+      "title": "Data Scientist",
+      "company": "FutureSoft",
+      "location": "Atlanta, GA",
+      "salaryRange": "$138,000 - $158,000",
+      "description": "We are looking for an experienced Data Scientist to join our growing team and build innovative software solutions.",
+      "companyInfo": "FutureSoft is a technology company focused on delivering high-quality digital products and services.",
+      "jobLocation": "Hybrid"
+    },
+    {
+      "id": "069",
+      "title": "UI/UX Designer",
+      "company": "SmartApps",
+      "location": "Remote",
+      "salaryRange": "$139,000 - $159,000",
+      "description": "We are looking for an experienced UI/UX Designer to join our growing team and build innovative software solutions.",
+      "companyInfo": "SmartApps is a technology company focused on delivering high-quality digital products and services.",
+      "jobLocation": "Remote"
+    },
+    {
+      "id": "070",
+      "title": "Product Manager",
+      "company": "CodeCraft",
+      "location": "Dallas, TX",
+      "salaryRange": "$140,000 - $160,000",
+      "description": "We are looking for an experienced Product Manager to join our growing team and build innovative software solutions.",
+      "companyInfo": "CodeCraft is a technology company focused on delivering high-quality digital products and services.",
+      "jobLocation": "On-site"
+    },
+    {
+      "id": "071",
+      "title": "iOS Developer",
+      "company": "Tech Solutions Inc.",
+      "location": "New York, NY",
+      "salaryRange": "$141,000 - $161,000",
+      "description": "We are looking for an experienced iOS Developer to join our growing team and build innovative software solutions.",
+      "companyInfo": "Tech Solutions Inc. is a technology company focused on delivering high-quality digital products and services.",
+      "jobLocation": "Hybrid"
+    },
+    {
+      "id": "072",
+      "title": "Android Developer",
+      "company": "CloudWorks",
+      "location": "San Francisco, CA",
+      "salaryRange": "$142,000 - $162,000",
+      "description": "We are looking for an experienced Android Developer to join our growing team and build innovative software solutions.",
+      "companyInfo": "CloudWorks is a technology company focused on delivering high-quality digital products and services.",
+      "jobLocation": "Remote"
+    },
+    {
+      "id": "073",
+      "title": "Backend Engineer",
+      "company": "Creative Minds",
+      "location": "Boston, MA",
+      "salaryRange": "$143,000 - $163,000",
+      "description": "We are looking for an experienced Backend Engineer to join our growing team and build innovative software solutions.",
+      "companyInfo": "Creative Minds is a technology company focused on delivering high-quality digital products and services.",
+      "jobLocation": "On-site"
+    },
+    {
+      "id": "074",
+      "title": "Frontend Developer",
+      "company": "Insight Analytics",
+      "location": "Seattle, WA",
+      "salaryRange": "$144,000 - $164,000",
+      "description": "We are looking for an experienced Frontend Developer to join our growing team and build innovative software solutions.",
+      "companyInfo": "Insight Analytics is a technology company focused on delivering high-quality digital products and services.",
+      "jobLocation": "Hybrid"
+    },
+    {
+      "id": "075",
+      "title": "Full Stack Developer",
+      "company": "NextGen Systems",
+      "location": "Austin, TX",
+      "salaryRange": "$145,000 - $165,000",
+      "description": "We are looking for an experienced Full Stack Developer to join our growing team and build innovative software solutions.",
+      "companyInfo": "NextGen Systems is a technology company focused on delivering high-quality digital products and services.",
+      "jobLocation": "Remote"
+    },
+    {
+      "id": "076",
+      "title": "QA Engineer",
+      "company": "Innovate Labs",
+      "location": "Chicago, IL",
+      "salaryRange": "$146,000 - $166,000",
+      "description": "We are looking for an experienced QA Engineer to join our growing team and build innovative software solutions.",
+      "companyInfo": "Innovate Labs is a technology company focused on delivering high-quality digital products and services.",
+      "jobLocation": "On-site"
+    },
+    {
+      "id": "077",
+      "title": "DevOps Engineer",
+      "company": "Digital Ventures",
+      "location": "Denver, CO",
+      "salaryRange": "$147,000 - $167,000",
+      "description": "We are looking for an experienced DevOps Engineer to join our growing team and build innovative software solutions.",
+      "companyInfo": "Digital Ventures is a technology company focused on delivering high-quality digital products and services.",
+      "jobLocation": "Hybrid"
+    },
+    {
+      "id": "078",
+      "title": "Data Scientist",
+      "company": "FutureSoft",
+      "location": "Atlanta, GA",
+      "salaryRange": "$148,000 - $168,000",
+      "description": "We are looking for an experienced Data Scientist to join our growing team and build innovative software solutions.",
+      "companyInfo": "FutureSoft is a technology company focused on delivering high-quality digital products and services.",
+      "jobLocation": "Remote"
+    },
+    {
+      "id": "079",
+      "title": "UI/UX Designer",
+      "company": "SmartApps",
+      "location": "Remote",
+      "salaryRange": "$149,000 - $169,000",
+      "description": "We are looking for an experienced UI/UX Designer to join our growing team and build innovative software solutions.",
+      "companyInfo": "SmartApps is a technology company focused on delivering high-quality digital products and services.",
+      "jobLocation": "On-site"
+    },
+    {
+      "id": "080",
+      "title": "Product Manager",
+      "company": "CodeCraft",
+      "location": "Dallas, TX",
+      "salaryRange": "$150,000 - $170,000",
+      "description": "We are looking for an experienced Product Manager to join our growing team and build innovative software solutions.",
+      "companyInfo": "CodeCraft is a technology company focused on delivering high-quality digital products and services.",
+      "jobLocation": "Hybrid"
+    },
+    {
+      "id": "081",
+      "title": "iOS Developer",
+      "company": "Tech Solutions Inc.",
+      "location": "New York, NY",
+      "salaryRange": "$151,000 - $171,000",
+      "description": "We are looking for an experienced iOS Developer to join our growing team and build innovative software solutions.",
+      "companyInfo": "Tech Solutions Inc. is a technology company focused on delivering high-quality digital products and services.",
+      "jobLocation": "Remote"
+    },
+    {
+      "id": "082",
+      "title": "Android Developer",
+      "company": "CloudWorks",
+      "location": "San Francisco, CA",
+      "salaryRange": "$152,000 - $172,000",
+      "description": "We are looking for an experienced Android Developer to join our growing team and build innovative software solutions.",
+      "companyInfo": "CloudWorks is a technology company focused on delivering high-quality digital products and services.",
+      "jobLocation": "On-site"
+    },
+    {
+      "id": "083",
+      "title": "Backend Engineer",
+      "company": "Creative Minds",
+      "location": "Boston, MA",
+      "salaryRange": "$153,000 - $173,000",
+      "description": "We are looking for an experienced Backend Engineer to join our growing team and build innovative software solutions.",
+      "companyInfo": "Creative Minds is a technology company focused on delivering high-quality digital products and services.",
+      "jobLocation": "Hybrid"
+    },
+    {
+      "id": "084",
+      "title": "Frontend Developer",
+      "company": "Insight Analytics",
+      "location": "Seattle, WA",
+      "salaryRange": "$154,000 - $174,000",
+      "description": "We are looking for an experienced Frontend Developer to join our growing team and build innovative software solutions.",
+      "companyInfo": "Insight Analytics is a technology company focused on delivering high-quality digital products and services.",
+      "jobLocation": "Remote"
+    },
+    {
+      "id": "085",
+      "title": "Full Stack Developer",
+      "company": "NextGen Systems",
+      "location": "Austin, TX",
+      "salaryRange": "$155,000 - $175,000",
+      "description": "We are looking for an experienced Full Stack Developer to join our growing team and build innovative software solutions.",
+      "companyInfo": "NextGen Systems is a technology company focused on delivering high-quality digital products and services.",
+      "jobLocation": "On-site"
+    },
+    {
+      "id": "086",
+      "title": "QA Engineer",
+      "company": "Innovate Labs",
+      "location": "Chicago, IL",
+      "salaryRange": "$156,000 - $176,000",
+      "description": "We are looking for an experienced QA Engineer to join our growing team and build innovative software solutions.",
+      "companyInfo": "Innovate Labs is a technology company focused on delivering high-quality digital products and services.",
+      "jobLocation": "Hybrid"
+    },
+    {
+      "id": "087",
+      "title": "DevOps Engineer",
+      "company": "Digital Ventures",
+      "location": "Denver, CO",
+      "salaryRange": "$157,000 - $177,000",
+      "description": "We are looking for an experienced DevOps Engineer to join our growing team and build innovative software solutions.",
+      "companyInfo": "Digital Ventures is a technology company focused on delivering high-quality digital products and services.",
+      "jobLocation": "Remote"
+    },
+    {
+      "id": "088",
+      "title": "Data Scientist",
+      "company": "FutureSoft",
+      "location": "Atlanta, GA",
+      "salaryRange": "$158,000 - $178,000",
+      "description": "We are looking for an experienced Data Scientist to join our growing team and build innovative software solutions.",
+      "companyInfo": "FutureSoft is a technology company focused on delivering high-quality digital products and services.",
+      "jobLocation": "On-site"
+    },
+    {
+      "id": "089",
+      "title": "UI/UX Designer",
+      "company": "SmartApps",
+      "location": "Remote",
+      "salaryRange": "$159,000 - $179,000",
+      "description": "We are looking for an experienced UI/UX Designer to join our growing team and build innovative software solutions.",
+      "companyInfo": "SmartApps is a technology company focused on delivering high-quality digital products and services.",
+      "jobLocation": "Hybrid"
+    },
+    {
+      "id": "090",
+      "title": "Product Manager",
+      "company": "CodeCraft",
+      "location": "Dallas, TX",
+      "salaryRange": "$160,000 - $180,000",
+      "description": "We are looking for an experienced Product Manager to join our growing team and build innovative software solutions.",
+      "companyInfo": "CodeCraft is a technology company focused on delivering high-quality digital products and services.",
+      "jobLocation": "Remote"
+    },
+    {
+      "id": "091",
+      "title": "iOS Developer",
+      "company": "Tech Solutions Inc.",
+      "location": "New York, NY",
+      "salaryRange": "$161,000 - $181,000",
+      "description": "We are looking for an experienced iOS Developer to join our growing team and build innovative software solutions.",
+      "companyInfo": "Tech Solutions Inc. is a technology company focused on delivering high-quality digital products and services.",
+      "jobLocation": "On-site"
+    },
+    {
+      "id": "092",
+      "title": "Android Developer",
+      "company": "CloudWorks",
+      "location": "San Francisco, CA",
+      "salaryRange": "$162,000 - $182,000",
+      "description": "We are looking for an experienced Android Developer to join our growing team and build innovative software solutions.",
+      "companyInfo": "CloudWorks is a technology company focused on delivering high-quality digital products and services.",
+      "jobLocation": "Hybrid"
+    },
+    {
+      "id": "093",
+      "title": "Backend Engineer",
+      "company": "Creative Minds",
+      "location": "Boston, MA",
+      "salaryRange": "$163,000 - $183,000",
+      "description": "We are looking for an experienced Backend Engineer to join our growing team and build innovative software solutions.",
+      "companyInfo": "Creative Minds is a technology company focused on delivering high-quality digital products and services.",
+      "jobLocation": "Remote"
+    },
+    {
+      "id": "094",
+      "title": "Frontend Developer",
+      "company": "Insight Analytics",
+      "location": "Seattle, WA",
+      "salaryRange": "$164,000 - $184,000",
+      "description": "We are looking for an experienced Frontend Developer to join our growing team and build innovative software solutions.",
+      "companyInfo": "Insight Analytics is a technology company focused on delivering high-quality digital products and services.",
+      "jobLocation": "On-site"
+    },
+    {
+      "id": "095",
+      "title": "Full Stack Developer",
+      "company": "NextGen Systems",
+      "location": "Austin, TX",
+      "salaryRange": "$165,000 - $185,000",
+      "description": "We are looking for an experienced Full Stack Developer to join our growing team and build innovative software solutions.",
+      "companyInfo": "NextGen Systems is a technology company focused on delivering high-quality digital products and services.",
+      "jobLocation": "Hybrid"
+    },
+    {
+      "id": "096",
+      "title": "QA Engineer",
+      "company": "Innovate Labs",
+      "location": "Chicago, IL",
+      "salaryRange": "$166,000 - $186,000",
+      "description": "We are looking for an experienced QA Engineer to join our growing team and build innovative software solutions.",
+      "companyInfo": "Innovate Labs is a technology company focused on delivering high-quality digital products and services.",
+      "jobLocation": "Remote"
+    },
+    {
+      "id": "097",
+      "title": "DevOps Engineer",
+      "company": "Digital Ventures",
+      "location": "Denver, CO",
+      "salaryRange": "$167,000 - $187,000",
+      "description": "We are looking for an experienced DevOps Engineer to join our growing team and build innovative software solutions.",
+      "companyInfo": "Digital Ventures is a technology company focused on delivering high-quality digital products and services.",
+      "jobLocation": "On-site"
+    },
+    {
+      "id": "098",
+      "title": "Data Scientist",
+      "company": "FutureSoft",
+      "location": "Atlanta, GA",
+      "salaryRange": "$168,000 - $188,000",
+      "description": "We are looking for an experienced Data Scientist to join our growing team and build innovative software solutions.",
+      "companyInfo": "FutureSoft is a technology company focused on delivering high-quality digital products and services.",
+      "jobLocation": "Hybrid"
+    },
+    {
+      "id": "099",
+      "title": "UI/UX Designer",
+      "company": "SmartApps",
+      "location": "Remote",
+      "salaryRange": "$169,000 - $189,000",
+      "description": "We are looking for an experienced UI/UX Designer to join our growing team and build innovative software solutions.",
+      "companyInfo": "SmartApps is a technology company focused on delivering high-quality digital products and services.",
+      "jobLocation": "Remote"
+    },
+    {
+      "id": "100",
+      "title": "Product Manager",
+      "company": "CodeCraft",
+      "location": "Dallas, TX",
+      "salaryRange": "$170,000 - $190,000",
+      "description": "We are looking for an experienced Product Manager to join our growing team and build innovative software solutions.",
+      "companyInfo": "CodeCraft is a technology company focused on delivering high-quality digital products and services.",
+      "jobLocation": "On-site"
+    }
+  ]
+}

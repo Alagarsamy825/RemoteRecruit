@@ -8,10 +8,18 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    let viewModel = JobListViewModel(service: JobService())
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        Task {
+            try? await viewModel.loadJob()
+            DispatchQueue.main.async {
+                print(self.viewModel.filteredJobs)
+            }
+            
+        }
     }
 
 
