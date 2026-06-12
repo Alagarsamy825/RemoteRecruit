@@ -16,8 +16,10 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        searchBar.placeholder = "Search job"
+        self.navigationController?.navigationBar.prefersLargeTitles = false
         navigationItem.title = "Job List"
+        searchBar.placeholder = "Search job"
+        self.jobListTableview.keyboardDismissMode = .onDrag
         Task {
             try? await viewModel.loadJob()
             DispatchQueue.main.async {
@@ -34,6 +36,10 @@ extension ViewController: UISearchBarDelegate {
         viewModel.searchJob(with: searchText)
         self.jobListTableview.reloadData()
     }
+    
+    func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
+        self.searchBar.resignFirstResponder()
+    }
 }
 
 
@@ -44,9 +50,17 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "jobList") as! JobListTableViewCell
+        cell.selectionStyle = .none
         cell.configure(viewModel.filteredJobs[indexPath.row])
         return cell
     }
     
-    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        
+        if let vc = storyboard.instantiateViewController(withIdentifier: "DetailViewController") as? DetailViewController {
+            vc.job = viewModel.filteredJobs[indexPath.row]
+            navigationController?.pushViewController(vc, animated: true)
+        }
+    }
 }
