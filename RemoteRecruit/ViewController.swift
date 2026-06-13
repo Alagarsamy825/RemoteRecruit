@@ -16,18 +16,40 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.navigationController?.navigationBar.prefersLargeTitles = false
-        navigationItem.title = "Job List"
-        searchBar.placeholder = "Search job"
+        setupNavigation(title: "Job Details")
+        configureSearchBar()
+        
         self.jobListTableview.keyboardDismissMode = .onDrag
+        self.jobListTableview.separatorStyle = .none
+        
         Task {
-            try? await viewModel.loadJob()
-            DispatchQueue.main.async {
-                self.jobListTableview.reloadData()
-                print(self.viewModel.filteredJobs)
-            }
-            
+            await viewModel.loadJob()
+            self.jobListTableview.reloadData()
         }
+    }
+    
+    private func configureSearchBar() {
+
+        searchBar.searchBarStyle = .minimal
+        searchBar.backgroundImage = UIImage()
+
+        let textField = searchBar.searchTextField
+
+        textField.backgroundColor = .systemGray6
+        textField.layer.cornerRadius = 20
+        textField.layer.masksToBounds = true
+
+        textField.layer.borderWidth = 1
+        textField.layer.borderColor = UIColor.systemGray5.cgColor
+
+        textField.placeholder = "Search jobs"
+
+        textField.leftView?.tintColor = .systemGray
+
+        textField.layer.shadowColor = UIColor.black.cgColor
+        textField.layer.shadowOpacity = 0.05
+        textField.layer.shadowOffset = CGSize(width: 0, height: 2)
+        textField.layer.shadowRadius = 4
     }
 }
 
