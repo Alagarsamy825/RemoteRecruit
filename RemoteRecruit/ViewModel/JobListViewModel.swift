@@ -45,11 +45,18 @@ final class JobListViewModel {
     func searchJob(with text: String) {
         guard !text.isEmpty else {
             filteredJobs = jobs
+            onStateChange?(.loaded)
             return
         }
         
         filteredJobs = jobs.filter {
             $0.title.localizedCaseInsensitiveContains(text) || $0.company.localizedCaseInsensitiveContains(text)
+        }
+        
+        if filteredJobs.isEmpty {
+            onStateChange?(.empty)
+        } else {
+            onStateChange?(.loaded)
         }
     }
 }

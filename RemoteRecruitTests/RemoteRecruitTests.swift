@@ -8,29 +8,153 @@
 import XCTest
 @testable import RemoteRecruit
 
+final class MockJobService: JobServiceProtocol {
+
+    var shouldThrowError = false
+    var jobs: [Job] = []
+
+    func fetchJob() async throws -> Jobs {
+
+        if shouldThrowError {
+            throw NSError(domain: "TestError", code: 0)
+        }
+
+        return Jobs(jobs: jobs)
+    }
+}
+
 final class RemoteRecruitTests: XCTestCase {
 
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+    func testLoadJobsSuccess() async {
+
+        let mockService = MockJobService()
+
+        mockService.jobs = [
+            Job(
+                id: "1",
+                title: "iOS Developer",
+                company: "Google",
+                location: "Chennai",
+                salaryRange: "10L",
+                description: "Swift",
+                companyInfo: "Tech Solutions Inc. is a technology company focused on delivering high-quality digital products and services.",
+                jobLocation: "Onsite"
+            )
+        ]
+
+        let viewModel = await JobListViewModel(service: mockService)
+
+        await viewModel.loadJob()
+
+        XCTAssertEqual(viewModel.jobs.count, 1)
     }
 
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-    }
+    func testLoadJobsEmpty() async {
 
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        // Any test you write for XCTest can be annotated as throws and async.
-        // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
-        // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
-    }
+        let mockService = MockJobService()
 
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
+        let viewModel = await JobListViewModel(service: mockService)
+
+        var isEmptyState = false
+
+        viewModel.onStateChange = { state in
+            if case .empty = state {
+                isEmptyState = true
+            }
         }
+
+        await viewModel.loadJob()
+
+        XCTAssertTrue(isEmptyState)
     }
 
+    func testLoadJobsError() async {
+
+        let mockService = MockJobService()
+        mockService.shouldThrowError = true
+
+        let viewModel = await JobListViewModel(service: mockService)
+
+        var hasError = false
+
+        viewModel.onStateChange = { state in
+            if case .error = state {
+                hasError = true
+            }
+        }
+
+        await viewModel.loadJob()
+
+        XCTAssertTrue(hasError)
+    }
+    
+    func testJobCreation() {
+
+        let job = Job(
+            id: "1",
+            title: "iOS Developer",
+            company: "Google",
+            location: "Chennai",
+            salaryRange: "10L - 15L",
+            description: "Swift Developer",
+            companyInfo: "Google",
+            jobLocation: "Chennai"
+        )
+
+        XCTAssertEqual(job.title, "iOS Developer")
+    }
+
+    func testSearchJob() async {
+
+        let mockService = MockJobService()
+        let viewModel = await JobListViewModel(service: mockService)
+
+        let job = Job(
+            id: "1",
+            title: "iOS Developer",
+            company: "Google",
+            location: "Chennai",
+            salaryRange: "10L - 15L",
+            description: "Swift Developer",
+            companyInfo: "Google",
+            jobLocation: "Chennai"
+        )
+
+        await viewModel.loadJob()
+        
+        viewModel.jobs = [job]
+
+        viewModel.searchJob(with: "iOS")
+
+        XCTAssertEqual(viewModel.filteredJobs.count, 1)
+    }
+
+    func testSearchNoResult() async {
+//        XCTAssertTrue(true)
+        let mockService = MockJobService()
+
+        let viewModel = JobListViewModel(service: mockService)
+
+        let job = [
+            Job(
+                id: "1",
+                title: "iOS Developer",
+                company: "Google",
+                location: "Chennai",
+                salaryRange: "10L",
+                description: "Swift",
+                companyInfo: "Tech Solutions Inc. is a technology company focused on delivering high-quality digital products and services.",
+                jobLocation: "Onsite"
+            )
+        ]
+        
+        await viewModel.loadJob()
+        
+        viewModel.jobs = job
+        viewModel.filteredJobs = job
+
+        viewModel.searchJob(with: "Doctor")
+
+        XCTAssertEqual(viewModel.filteredJobs.count, 0)
+    }
 }
